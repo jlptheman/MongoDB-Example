@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7bab73f-1c99-4a36-b88c-b603071c185f" name="Default Changelist" comment="" />
+    <list default="true" id="b7bab73f-1c99-4a36-b88c-b603071c185f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flights/core/interfaces/IFlightRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flights/core/interfaces/IFlightRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flights/core/interfaces/IFlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flights/core/interfaces/IFlightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flights/core/services/FlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flights/core/services/FlightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flights/dal/InMemoryFlightRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flights/dal/InMemoryFlightRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flights/web/FlightsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flights/web/FlightsController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +34,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XiK29JSA4VSgdlqd2bJhszzilx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -35,6 +47,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -103,6 +116,7 @@
       <workItem from="1581588446914" duration="5766000" />
       <workItem from="1581676172360" duration="1885000" />
       <workItem from="1581678073958" duration="3859000" />
+      <workItem from="1581683697125" duration="132000" />
     </task>
     <servers />
   </component>
@@ -118,6 +132,10 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="765" y="301" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1581589365831" />
+    <state x="585" y="181" key="CommitChangelistDialog2" timestamp="1581683907805">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="585" y="181" key="CommitChangelistDialog2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1581683907805" />
     <state width="411" height="466" key="DebuggerActiveHint" timestamp="1581681235853">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
@@ -170,6 +188,10 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="461" y="228" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1581676619779" />
+    <state x="702" y="205" key="refactoring.ChangeSignatureDialog" timestamp="1581683740754">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="702" y="205" key="refactoring.ChangeSignatureDialog/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1581683740754" />
     <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1581523898387">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>

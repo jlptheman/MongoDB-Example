@@ -4,9 +4,9 @@ import flights.core.model.Flight;
 import java.util.List;
 
 public interface IFlightService {
-  Flight GetFlight(String id);
-  List<Flight> GetFlights(String filter);
-  Flight InsertFlight(Flight flight);
-  Flight UpdateFlight(Flight flight);
-  void DeleteFlight(String id);
+  Flight getFlight(String id);
+  List<Flight> getFlights(String filter);
+  Flight insertFlight(Flight flight);
+  Flight updateFlight(Flight flight);
+  void deleteFlight(String id);
 }

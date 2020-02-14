@@ -15,23 +15,23 @@ public class FlightService implements IFlightService {
     this.flightRepository = flightRepository;
   }
 
-  public Flight GetFlight(String id) {
-    return flightRepository.Get(id);
+  public Flight getFlight(String id) {
+    return flightRepository.get(id);
   }
 
-  public List<Flight> GetFlights(String filter) {
-    return flightRepository.GetAll(filter);
+  public List<Flight> getFlights(String filter) {
+    return flightRepository.getAll(filter);
   }
 
-  public Flight InsertFlight(Flight flight) {
-    return flightRepository.Insert(flight);
+  public Flight insertFlight(Flight flight) {
+    return flightRepository.insert(flight);
   }
 
-  public Flight UpdateFlight(Flight flight) {
-    return flightRepository.Update(flight);
+  public Flight updateFlight(Flight flight) {
+    return flightRepository.update(flight);
   }
 
-  public void DeleteFlight(String id) {
-    flightRepository.Delete(id);
+  public void deleteFlight(String id) {
+    flightRepository.delete(id);
   }
 }

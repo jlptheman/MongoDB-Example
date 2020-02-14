@@ -33,28 +33,28 @@ public class FlightsController {
   }
 
   @GetMapping(value = "/{id}")
-  public ResponseEntity<Flight> Get(@PathVariable String id){
-    return new ResponseEntity<Flight>(flightService.GetFlight(id), HttpStatus.OK);
+  public ResponseEntity<Flight> get(@PathVariable String id){
+    return new ResponseEntity<Flight>(flightService.getFlight(id), HttpStatus.OK);
   }
 
   @GetMapping
-  public ResponseEntity<List<Flight>> GetFiltered(@RequestParam(required = false) String filter){
-    return new ResponseEntity<List<Flight>>(flightService.GetFlights(filter), HttpStatus.OK);
+  public ResponseEntity<List<Flight>> getFiltered(@RequestParam(required = false) String filter){
+    return new ResponseEntity<List<Flight>>(flightService.getFlights(filter), HttpStatus.OK);
   }
 
   @PostMapping
-  public ResponseEntity Insert(@RequestBody Flight flight){
-    return new ResponseEntity<Flight>(flightService.InsertFlight(flight), HttpStatus.OK);
+  public ResponseEntity insert(@RequestBody Flight flight){
+    return new ResponseEntity<Flight>(flightService.insertFlight(flight), HttpStatus.OK);
   }
 
   @PutMapping(value = "/{id}")
-  public ResponseEntity<Flight> Update(@PathVariable String id, @RequestBody Flight flight){
-    return new ResponseEntity<Flight>(flightService.UpdateFlight(flight), HttpStatus.OK);
+  public ResponseEntity<Flight> update(@PathVariable String id, @RequestBody Flight flight){
+    return new ResponseEntity<Flight>(flightService.updateFlight(flight), HttpStatus.OK);
   }
 
   @DeleteMapping(value = "/{id}")
-  public ResponseEntity<Flight> Delete(@PathVariable String id){
-    flightService.DeleteFlight(id);
+  public ResponseEntity<Flight> delete(@PathVariable String id){
+    flightService.deleteFlight(id);
     return new ResponseEntity(HttpStatus.NO_CONTENT);
   }
 }
