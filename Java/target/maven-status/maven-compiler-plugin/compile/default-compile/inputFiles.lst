@@ -1,0 +1,7 @@
+E:\MongoDBTraining\Java\src\main\java\flights\core\model\Flight.java
+E:\MongoDBTraining\Java\src\main\java\flights\core\services\FlightService.java
+E:\MongoDBTraining\Java\src\main\java\flights\FlightsApplication.java
+E:\MongoDBTraining\Java\src\main\java\flights\core\interfaces\IFlightRepository.java
+E:\MongoDBTraining\Java\src\main\java\flights\web\FlightsController.java
+E:\MongoDBTraining\Java\src\main\java\flights\core\interfaces\IFlightService.java
+E:\MongoDBTraining\Java\src\main\java\flights\dal\InMemoryFlightRepository.java

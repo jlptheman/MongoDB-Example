@@ -1,0 +1,11 @@
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\bin\Debug\netcoreapp3.1\Flights.Dal.deps.json
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\bin\Debug\netcoreapp3.1\Flights.Dal.dll
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\bin\Debug\netcoreapp3.1\Flights.Dal.pdb
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\bin\Debug\netcoreapp3.1\Flights.Core.dll
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\bin\Debug\netcoreapp3.1\Flights.Core.pdb
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\obj\Debug\netcoreapp3.1\Flights.Dal.csprojAssemblyReference.cache
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\obj\Debug\netcoreapp3.1\Flights.Dal.AssemblyInfoInputs.cache
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\obj\Debug\netcoreapp3.1\Flights.Dal.AssemblyInfo.cs
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\obj\Debug\netcoreapp3.1\Flights.Dal.csproj.CopyComplete
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\obj\Debug\netcoreapp3.1\Flights.Dal.dll
+E:\MongoDBTraining\netcore\Flights\Flights.Dal\obj\Debug\netcoreapp3.1\Flights.Dal.pdb
