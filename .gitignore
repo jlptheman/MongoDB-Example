@@ -12,6 +12,7 @@
 /node_modules
 /wwwroot/node_modules
 
+**/target
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
