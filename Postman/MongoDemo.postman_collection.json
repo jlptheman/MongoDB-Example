@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "61119896-eb8d-4eaa-820b-a569615029b5",
+		"name": "MongoDemo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Flights",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/flights",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Flight",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/flights/8cb35328-fbef-4da0-9f41-c883e8d87afas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"flights",
+						"8cb35328-fbef-4da0-9f41-c883e8d87afas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Flight",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/flights/9920a5e4-aa59-43a8-9205-b2eba047a713",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"flights",
+						"9920a5e4-aa59-43a8-9205-b2eba047a713"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert Flight",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"scheduleTime\": \"2020.02.12 14:00:00\",\n    \"number\": \"789\",\n    \"airline\": \"BA\",\n    \"origin\": \"DUB\",\n    \"destination\": \"LHR\",\n    \"status\": \"On Time\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/flights",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Flight",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"9272551f-08ca-4bb1-9b88-9ce60b698d80\",\n    \"scheduleTime\": \"2020.02.14 14:30:00\",\n    \"number\": \"456\",\n    \"airline\": \"BA\",\n    \"origin\": \"DUB\",\n    \"destination\": \"LHR\",\n    \"status\": \"OnTime\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/flights/9272551f-08ca-4bb1-9b88-9ce60b698d80",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"flights",
+						"9272551f-08ca-4bb1-9b88-9ce60b698d80"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

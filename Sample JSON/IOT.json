@@ -1,0 +1,7 @@
+{
+    "deviceId": "device1",
+    "status": "running",
+    "timestamp": "2020.02.18 14:00:00",
+    "temporature": 24,
+    "humidity": 80
+}

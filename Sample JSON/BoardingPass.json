@@ -1,0 +1,34 @@
+{
+  "workstation": "GVA3CKA002",
+  "timestamp": "2020.02.18 13:30:13",
+  "formatCode": "M",
+  "passengerName": "Korsen/Gene",
+  "sourceOfCheckIn": "W",
+  "ETicketIndicator": "E",
+  "sourceOfBoardingPassIssuance": "W",
+  "passengerDescription": "1",
+  "documentType": "B",
+  "airlineDesignatorOfIssuer": "A50",
+  "baggageTagLicensePlate": "1014123456",
+  "dateOfIssuance": "7245",
+  "versionNumber": "5",
+  "flightSegments": [
+    {
+        
+        "pnr": "252EC88",
+        "seatNo": "24G ",
+        "checkInSequenceNumber": "167",
+        "origin": "GVA",
+        "destination": "DUB",
+        "dateOfFlight": "245",
+        "marketingCarrierDesignator": "",
+        "operatingCarrierDesignator": "A50",
+        "flightNumber": "37373",
+        "frequentFlyerNuber": "",
+        "frequentFlyerAirlineDesignator": "",
+        "compartmentCode": "H",
+        "passengerStatus": "1"
+    }
+  ],
+  "dataStream": "6M1Korsen/Gene         E252EC88GVADUBA5037373245H24G 167  14D>5181WW7245BA50             2A014                                            "
+}
