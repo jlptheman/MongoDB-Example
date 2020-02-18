@@ -1,8 +1,0 @@
-E:\MongoDBTraining\netcore\Flights\Flights.Core\bin\Debug\netcoreapp3.1\Flights.Core.deps.json
-E:\MongoDBTraining\netcore\Flights\Flights.Core\bin\Debug\netcoreapp3.1\Flights.Core.dll
-E:\MongoDBTraining\netcore\Flights\Flights.Core\bin\Debug\netcoreapp3.1\Flights.Core.pdb
-E:\MongoDBTraining\netcore\Flights\Flights.Core\obj\Debug\netcoreapp3.1\Flights.Core.csprojAssemblyReference.cache
-E:\MongoDBTraining\netcore\Flights\Flights.Core\obj\Debug\netcoreapp3.1\Flights.Core.AssemblyInfoInputs.cache
-E:\MongoDBTraining\netcore\Flights\Flights.Core\obj\Debug\netcoreapp3.1\Flights.Core.AssemblyInfo.cs
-E:\MongoDBTraining\netcore\Flights\Flights.Core\obj\Debug\netcoreapp3.1\Flights.Core.dll
-E:\MongoDBTraining\netcore\Flights\Flights.Core\obj\Debug\netcoreapp3.1\Flights.Core.pdb
